@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dbt5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/BrokerageHouseMain">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/BrokerageHouseMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/BrokerageHouseMain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/BrokerageHouseMain/fast">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/BrokerageHouseMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/BrokerageHouseMain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/DriverMain">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/DriverMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/DriverMain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/DriverMain/fast">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/DriverMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/DriverMain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/MarketExchangeMain">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/MarketExchangeMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/MarketExchangeMain"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="bin/MarketExchangeMain/fast">
+				<Option output="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/bin/MarketExchangeMain" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 bin/MarketExchangeMain/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/AddressTable.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/BaseLogger.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/CE.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/CETxnInputGenerator.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/CETxnMixGenerator.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/CustomerSelection.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/CustomerTable.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/DM.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/DateTime.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/EGenLogFormatterTab.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/EGenVersion.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/InputFlatFilesStructure.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/MEE.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/MEEPriceBoard.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/MEESecurity.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/MEETickerTape.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/MEETradingFloor.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/Person.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/Random.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/ReadRowFunctions.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/WheelTime.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/error.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/egen/src/locking.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/BrokerageHouse/BrokerageHouse.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/BrokerageHouse/BrokerageHouseMain.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/Customer/Customer.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/Driver/Driver.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/Driver/DriverMain.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/MarketExchange/MarketExchange.cpp">
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/MarketExchange/MarketExchangeMain.cpp">
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/BaseInterface.cpp">
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/CESUT.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/CSocket.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+			<Option target="bin/DriverMain"/>
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/DMSUT.cpp">
+			<Option target="bin/DriverMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/MEESUT.cpp">
+			<Option target="bin/MarketExchangeMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/interfaces/TxnHarnessSendToMarket.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/BrokerVolumeDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/CustomerPositionDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/DataMaintenanceDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/MarketFeedDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/MarketWatchDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/SecurityDetailDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeCleanupDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeLookupDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeOrderDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeResultDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeStatusDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TradeUpdateDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/TxnBaseDB.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/src/transactions/pgsql/DBConnection.cpp">
+			<Option target="bin/BrokerageHouseMain"/>
+		</Unit>
+		<Unit filename="/home/zsy/softwareInstallation/clionWorkplace/dbt5-0.1.0/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
